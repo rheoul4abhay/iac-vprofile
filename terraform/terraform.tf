@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "vprofile-tfstate-ft.abhay"
+    bucket = "vprofile-tfstate-ft.yanko"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
